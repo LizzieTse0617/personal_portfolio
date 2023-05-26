@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/testing-education/static/js/main.35be5fca.js",
+    "main.css": "/testing-education/static/css/main.8ffdd1b1.css",
+    "main.js": "/testing-education/static/js/main.22540a27.js",
     "index.html": "/testing-education/index.html",
-    "main.35be5fca.js.map": "/testing-education/static/js/main.35be5fca.js.map"
+    "main.8ffdd1b1.css.map": "/testing-education/static/css/main.8ffdd1b1.css.map",
+    "main.22540a27.js.map": "/testing-education/static/js/main.22540a27.js.map"
   },
   "entrypoints": [
-    "static/js/main.35be5fca.js"
+    "static/css/main.8ffdd1b1.css",
+    "static/js/main.22540a27.js"
   ]
 }
