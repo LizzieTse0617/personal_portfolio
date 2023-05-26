@@ -44,7 +44,7 @@ function Navbar() {
       >
         <Link to="/">
           <Image
-            src='../../public/name-logo.svg'
+            src={`${process.env.PUBLIC_URL}/name-logo.svg`}
             alt="Image"
             height={10}
           />
