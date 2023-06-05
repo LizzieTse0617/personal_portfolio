@@ -216,7 +216,7 @@ export default function Project() {
                 </Heading>
 
                 <Text fontSize="sm" fontWeight="normal" mb={3}>
-                  It is an User Experience design on an app work together with Vitals Surveillance system(Original prototype: Hillrom).
+                  It is an User Experience design on an app work together with Vitals Surveillance system(Original prototype: Hillrom).i
 It is designed to build extension support to patient monitoring & detection of early patient deterioration. Participation: UI & UX
                   development, product development
                 </Text>
