@@ -231,7 +231,7 @@ It is designed to build extension support to patient monitoring & detection of e
                     ml={2}
                     mr={2}
                   >
-                    UI Ref.(Figma)
+                    View more
                   </Button>
                 </Link>
 
