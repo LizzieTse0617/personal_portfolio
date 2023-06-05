@@ -12,6 +12,7 @@ import Products from './Products/Products';
 import Skills from './Skills/Skills';
 import Service from './Service/Service';
 import Project from './Project/Project';
+import Medical from './Medical/Medical';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/services" element={<Service />} />
         <Route path="/projects" element={<Project />} />
+        <Route path="/medical" element={<Medical />} />
         <Route path="/product" element={<Products />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />

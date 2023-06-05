@@ -5,11 +5,11 @@ import {
   Grid,
   Heading,
   Tag,
-  Icon,
+
   GridItem,
 } from '@chakra-ui/react';
 import ScrollableBox from './ScrollableBox';
-import { AiOutlineLink } from 'react-icons/ai';
+
 export default function Skills() {
   return (
     <div className="skills">

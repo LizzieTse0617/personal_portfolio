@@ -1,13 +1,10 @@
 import { Box } from '@chakra-ui/react';
 import {
   Text,
-  Grid,
-  Flex,
-  Heading,
-  Tag,
+
   Link,
   Icon,
-  GridItem,
+
 } from '@chakra-ui/react';
 import { AiOutlineLink } from 'react-icons/ai';
 export default function ScrollableBox() {

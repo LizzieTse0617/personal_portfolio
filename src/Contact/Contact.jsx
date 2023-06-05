@@ -8,10 +8,10 @@ import {
   GridItem,
   Textarea,
 } from '@chakra-ui/react';
-import { useState } from 'react';
+
 import { AiFillPhone, AiTwotoneMail } from 'react-icons/ai';
-import { AiOutlineSend } from 'react-icons/ai';
-import { FormControl, FormLabel, Input, VStack } from '@chakra-ui/react';
+
+import {  Input } from '@chakra-ui/react';
 
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';

@@ -1,17 +1,12 @@
 import {
-  Modal,
-  ModalOverlay,
-  ModalContent,
-  ModalHeader,
-  ModalFooter,
-  Button,
+
   Box,
   Grid,
   GridItem,
   Heading,
-  ModalBody,
+
   Icon,
-  ModalCloseButton,
+
 } from '@chakra-ui/react';
 
 import { useDisclosure } from '@chakra-ui/react';
@@ -21,7 +16,7 @@ import {
   MdOutlineWeb,
 } from 'react-icons/md';
 import { BiPen } from 'react-icons/bi';
-import { FiBox, FiArrowRight } from 'react-icons/fi';
+import { FiBox } from 'react-icons/fi';
 
 export default function Service() {
   const { isOpen, onOpen, onClose } = useDisclosure();

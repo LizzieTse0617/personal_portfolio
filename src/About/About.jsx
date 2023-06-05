@@ -1,13 +1,13 @@
-import { AiOutlineDownload } from 'react-icons/ai';
+
 import {
   Text,
   Box,
   Grid,
   Image,
   Heading,
-  Icon,
+
   GridItem,
-  Button,
+
 } from '@chakra-ui/react';
 import { Element } from 'react-scroll';
 export default function About() {
@@ -50,7 +50,7 @@ export default function About() {
               color="gray.500"
               mb={3}
             >
-              A Full Stack Developer based in Ottawa
+              A Mobile & Web Software Developer based in Ottawa
             </Heading>
             <Text fontSize="sm" fontWeight="normal" color="gray.700" mb={3}>
               I design and develop services for customers specializing creating

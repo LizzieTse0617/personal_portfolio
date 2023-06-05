@@ -20,10 +20,12 @@ Link,
 
 
   import './introduction.css';
+
   export default function Introduction() {
     return (
       <div className="introduction">
         <section id="introduction">
+        
           <Box mt={40} mb={40} maxW="1200px" mx="auto" alignItems="center">
             <Grid
               m={4}
@@ -89,11 +91,13 @@ Link,
                   color="gray.500"
                   mb={3}
                 >
-                  - Full Stack Developer from Ottawa, Canada 👋
+                Mobile & Web Software Student from Ottawa, Canada 👋
                 </Heading>
                 <Text fontSize="sm" fontWeight="normal" color="gray.700" mb={3}>
-                  I'm an experienced developer who constantly seeks out innovative
-                  solutions to everyday problems and opportunities.
+
+                Hi! I’m a mobile and web software student from Algonquin College, Canada. 
+                😃 I was a former medical sales engineer & product engineer in medical equipment & Iot healthcare solution.(Yes, from hardware product production to software applications!). My goal is to use my skills in app development and industry knowledge to make life easier for physicians through AI healthcare technology.
+              
                 </Text>
   
                 <Button

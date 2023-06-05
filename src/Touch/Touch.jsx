@@ -2,11 +2,11 @@ import {
     Text,
     Box,
     Grid,
-    Tag,
+
     Icon,
     Link,
     Button,
-    Heading,
+
     GridItem,
   } from '@chakra-ui/react';
   import { AiOutlineSend } from 'react-icons/ai';

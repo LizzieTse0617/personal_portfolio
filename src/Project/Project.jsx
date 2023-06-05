@@ -204,10 +204,58 @@ export default function Project() {
                 </Link>
               </HoverableBox>
             </GridItem>
+      {/* 8 */}
+      <GridItem>
+              <HoverableBox imageUrl=
+              
+              {`${process.env.PUBLIC_URL}/Frame 8.png`}
+              
+              >
+                <Heading as="h3" size="md" fontWeight="bold" mt={10} mb={3}>
+                  Contactless vital signs monitor alarm system
+                </Heading>
 
+                <Text fontSize="sm" fontWeight="normal" mb={3}>
+                  It is an app that contains a bluetooth hardware vital symptoms
+                  monitoring receiver to collect patient vital signs and support
+                  clinical early deterioration. Participation: UI & UX
+                  development, product development
+                </Text>
+                <Link href="https://www.figma.com/file/OdyzuRjA1AoODHaEN1ha66/BCG?type=design&node-id=0%3A1&t=6B9gDtiawJwgP5vr-1">
+                  {/* view live */}
+                  <Button
+                    p={6}
+                    mt={4}
+                    colorScheme="blue"
+                    size="xs"
+                    _hover={{ bg: 'white', color: 'blue.600' }}
+                    ml={2}
+                    mr={2}
+                  >
+                    UI Ref.(Figma)
+                  </Button>
+                </Link>
+
+{/* todo - change this page to  */}
+                <Link href="https://www.welchallyn.com/content/welchallyn/ca/en/products/categories/patient-monitoring/connex_centralized_clinical_surveillanc_systems/early-sense.html">
+                  {/* view live */}
+                  <Button
+                    p={6}
+                    mt={4}
+                    colorScheme="blue"
+                    size="xs"
+                    _hover={{ bg: 'white', color: 'blue.600' }}
+                    ml={2}
+                    mr={2}
+                  >
+                    Original prototype
+                  </Button>
+                </Link>
+              </HoverableBox>
+            </GridItem>
             {/* 9 */}
             <GridItem bgColor={'blue.500'} color="white">
-              <Link href={'https://github.com/LizzieTse0617/'}>
+              <Link href={'http://localhost:3000/personal_portfolio#/product'}>
                 <Text
                   fontSize={'3rem'}
                   fontWeight={'bold'}
@@ -217,7 +265,7 @@ export default function Project() {
                   pr={1}
                   pl={4}
                 >
-                  More: Click & checkout my github
+                  Click here to see Medical & Healthcare related Product 
                 </Text>
               </Link>
             </GridItem>
