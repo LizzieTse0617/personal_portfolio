@@ -93,7 +93,7 @@ export default function Work() {
               <AccordionButton>
                 <Box as="span" flex="1" textAlign="left" pt={3} pb={3}>
                   <Heading as="h3" size="md" fontWeight="bold" color="black">
-                    Product​ ​&​ ​packaging​ ​engineer (Factory based)
+                    Product​ ​&​ ​packaging​ ​engineer (Station in factory, mainland China )
                   </Heading>
                   <Text fontSize="sm" color="gray.500">
                     JM Sunflower Ltd | Oct17 - Jun18 | Permanent |

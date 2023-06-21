@@ -1,13 +1,20 @@
-import { Progress } from '@chakra-ui/react';
+
 import {
   Text,
   Box,
   Grid,
   Heading,
-  Tag,
-
+  Tag,UnorderedList, ListItem,
   GridItem,
 } from '@chakra-ui/react';
+
+import {
+  Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+  AccordionIcon,
+} from '@chakra-ui/react'
 import ScrollableBox from './ScrollableBox';
 
 export default function Skills() {
@@ -100,49 +107,111 @@ export default function Skills() {
                 >
                   Skills
                 </Tag>
+{/* frontend */}
+                <Box p={3} mb={3} boxShadow="xl" rounded="md" bg="white">
+              <Accordion allowToggle border="white">
+                 <AccordionItem>
 
-                {/* JS */}
-                <Box p={5} mb={3} boxShadow="xl" rounded="md" bg="white">
-                  <Text as="h3" fontWeight="bold" mb={1}>
-                    Javascript{' '}
-                    <Text as="span" color="blue.500" fontSize={'sm'}>
-                      / 90%
-                    </Text>
-                  </Text>
-                  <Progress value={90} size="sm" bgColor={'gray.200'} />
-                </Box>
-                {/* Figma */}
-                <Box p={5} mb={3} boxShadow="xl" rounded="md" bg="white">
-                  <Text as="h3" fontWeight="bold" mb={1}>
-                    Figma{' '}
-                    <Text as="span" color="blue.500" fontSize={'sm'}>
-                      / 90%
-                    </Text>
-                  </Text>
-                  <Progress value={90} size="sm" bgColor={'gray.200'} />
-                </Box>
-                {/* Node JS */}
-                <Box p={5} mb={3} boxShadow="xl" rounded="md" bg="white">
-                  <Text as="h3" fontWeight="bold" mb={1}>
-                    NodeJS{' '}
-                    <Text as="span" color="blue.500" fontSize={'sm'}>
-                      / 80%
-                    </Text>
-                  </Text>
-                  <Progress value={80} size="sm" bgColor={'gray.200'} />
-                </Box>
-                {/* C++ */}
-                <Box p={5} mb={3} boxShadow="xl" rounded="md" bg="white">
-                  <Text as="h3" fontWeight="bold" mb={1}>
-                    C++
-                    <Text as="span" color="blue.500" fontSize={'sm'}>
-                      / 75%
-                    </Text>
-                  </Text>
-                  <Progress value={75} size="sm" bgColor={'gray.200'} />
-                </Box>
-              </Box>
-            </GridItem>
+      <AccordionButton >
+      <Box as="span" flex="1" textAlign="left">
+        <Heading as="h3" size="md" fontWeight="bold" color="black" borderBottom="none">
+          Frontend developer
+        </Heading>
+      </Box>
+      <AccordionIcon />
+    </AccordionButton>
+
+      <AccordionPanel pb={4}>
+        <UnorderedList>
+          <ListItem>HTML</ListItem>
+          <ListItem>CSS</ListItem>
+          <ListItem>Javascript</ListItem>
+          <ListItem>React</ListItem>
+        </UnorderedList>
+      </AccordionPanel>
+    </AccordionItem>
+
+</Accordion>
+</Box>
+{/* frontend */}
+<Box p={3} mb={3} boxShadow="xl" rounded="md" bg="white">
+              <Accordion allowToggle border="white">
+                 <AccordionItem>
+
+      <AccordionButton >
+      <Box as="span" flex="1" textAlign="left">
+        <Heading as="h3" size="md" fontWeight="bold" color="black" borderBottom="none">
+          Backend developer
+        </Heading>
+      </Box>
+      <AccordionIcon />
+    </AccordionButton>
+
+      <AccordionPanel pb={4}>
+        <UnorderedList>
+          <ListItem>MongoDB</ListItem>
+          <ListItem>NodeJS</ListItem>
+        </UnorderedList>
+      </AccordionPanel>
+    </AccordionItem>
+
+</Accordion>
+</Box>
+
+{/* UI/UX */}
+<Box p={3} mb={3} boxShadow="xl" rounded="md" bg="white">
+              <Accordion allowToggle border="white">
+                 <AccordionItem>
+
+      <AccordionButton >
+      <Box as="span" flex="1" textAlign="left">
+        <Heading as="h3" size="md" fontWeight="bold" color="black" borderBottom="none">
+          UI/UX Designer
+        </Heading>
+      </Box>
+      <AccordionIcon />
+    </AccordionButton>
+
+      <AccordionPanel pb={4}>
+        <UnorderedList>
+          <ListItem>Figma</ListItem>
+          <ListItem>AdobeXD</ListItem>
+          <ListItem>Illustrator</ListItem>
+          <ListItem>Photoshop</ListItem>
+        </UnorderedList>
+      </AccordionPanel>
+    </AccordionItem>
+
+</Accordion>
+</Box>
+
+{/* product development */}
+<Box p={3} mb={3} boxShadow="xl" rounded="md" bg="white">
+              <Accordion allowToggle border="white">
+                 <AccordionItem>
+      <AccordionButton >
+      <Box as="span" flex="1" textAlign="left">
+        <Heading as="h3" size="md" fontWeight="bold" color="black" borderBottom="none">
+          Product development
+        </Heading>
+      </Box>
+      <AccordionIcon />
+    </AccordionButton>
+      <AccordionPanel pb={4}>
+        <UnorderedList>
+          <ListItem>AutoCAD</ListItem>
+          <ListItem>Solidwork</ListItem>
+  
+        </UnorderedList>
+      </AccordionPanel>
+    </AccordionItem>
+
+</Accordion>
+</Box>
+
+              </Box>      
+</GridItem>
+
 
             {/* code */}
             <GridItem>

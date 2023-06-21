@@ -26,6 +26,29 @@ export default function ScrollableBox() {
         },
       }}
     >
+{/* Event 4 */}
+<Box bgColor="gray.100" p={2} mb={4}>
+        <Text fontWeight="bold">
+        XPC Health AI Hackathon
+          <Text as="span" color="gray.500" fontSize={'sm'}>
+            - Product designer & developer role, date: May 2023
+          </Text>
+          <Box>
+            <Link href="https://hackathon.xprimarycare.com/">
+            <Text as="span" fontSize="xs" color="gray.500">
+              Event page
+              <Icon as={AiOutlineLink} boxSize={4} />
+            </Text></Link>
+
+            <Link href="https://lizzietse0617.github.io/demo/dashboard.html">
+            <Text as="span" fontSize="xs" color="gray.500">
+              Github Demo
+              <Icon as={AiOutlineLink} boxSize={4} />
+            </Text></Link>
+          </Box>
+        </Text>
+      </Box>
+
       {/* Event 3 */}
       <Box bgColor="gray.100" p={2} mb={4}>
         <Text fontWeight="bold">
@@ -34,10 +57,11 @@ export default function ScrollableBox() {
             - User Experience A/B test, date: 10th Feb 2023
           </Text>
           <Box>
+            <Link href="https://github.com/LizzieTse0617/ArriveCAN-usabilitytest">
             <Text as="span" fontSize="xs" color="gray.500">
               Link
               <Icon as={AiOutlineLink} boxSize={4} />
-            </Text>
+            </Text></Link>
           </Box>
         </Text>
       </Box>
