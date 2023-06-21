@@ -29,7 +29,7 @@ export default function Work() {
                   </Text>
                   <Text mt={3} fontSize="sm" fontWeight="normal" color="black">
                     Provide customized pre-sales solution with medical equipment
-                    & devices(Hillrom, Laerdal) together with IT healthcare
+                    & devices(Hillrom,  Laerdal) together with IT healthcare
                     solution will to fit customer needs.
                   </Text>
                 </Box>
